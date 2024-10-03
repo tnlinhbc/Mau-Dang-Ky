@@ -1,0 +1,56 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dk label {
+    font-weight: bold;
+}
+
+.dk label,
+input,
+select {
+    margin-bottom: 0.5em;
+}
+
+.dk h1 {
+    text-align: center;
+    color: red;
+}
+
+.dk .hoten {
+    margin-left: 5.4em;
+}
+
+.dk .email {
+    margin-left: 1.2em;
+}
+
+.sdt {
+    margin-left: 1.1em;
+}
+
+.diachi {
+    margin-left: 5.8em;
+}
+
+.dk {
+    text-align: center;
+}
+
+.chonthongtin {
+    margin-right: 4.65em;
+}
+
+#hienthongtin p {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#hienthongtin h4 {
+    text-align: left;
+    color: red;
+}
+
+#hienthongtin h1 {
+    color: red;
+}

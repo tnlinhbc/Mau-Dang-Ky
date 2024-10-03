@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- JS -->
+    <script src="main.js"></script>
+    <!-- JS -->
+    <div class="dk">
+        <h1>ĐĂNG KÝ KHOÁ HỌC ONLINE</h1>
+        <form name="dangky">
+            <label for="hoten">Họ tên: </label>
+            <input type="text" name="hoten" placeholder="Nhập đầy đủ Họ Tên của bạn" size="50" required class="hoten">
+            <br>
+            <label for="email">Địa chỉ Email: </label>
+            <input type="email" name="email" placeholder="Nhập địa chỉ Emmail của bạn" size="50" required class="email">
+            <br>
+            <label for="sdt">Số điện thoại: </label>
+            <input type="tel" name="sdt" placeholder="Nhập số điện thoại cả bạn" size="50" required class="sdt">
+            <br>
+            <label for="chonnuoc" class="chonthongtin">Chọn thông tin: </label>
+            <select name="chonnuoc" class="chonthongtin">
+                <option value="Chọn nước" selected>Chọn nước</option>
+                <option value="Việt Nam">Việt Nam</option>
+                <option value="Hoa Kỳ">Hoa kỳ</option>
+                <option value="Trung Quốc">Trung Quốc</option>
+            </select>
+            <select name="chonkhoahoc" class="chonthongtin">
+                <option value="Chọn khoá học" selected>Chọn khoá học</option>
+                <option value="Cơ bản">Cơ bản</option>
+                <option value="Nâng cao">Nâng cao</option>
+            </select>
+            <br>
+            <table border="0" align="center">
+                <tr>
+                    <td><label for="diachi">Địa chỉ</label></td>
+                    <td><textarea name="diachi" id="" cols="50.51" rows="10" class="diachi"></textarea></td>
+                </tr>
+            </table>
+            <input type="button" name="gui" value="Đăng Ký" onclick="return Kiemtra();" class="gui">
+            <input type="reset" name="xoa" value="Xoá" onclick="return Xoa();" class="xoa">
+            <br>
+            <div id="hienthongtin"></div>
+        </form>
+    </div>
+</body>
+
+</html>
